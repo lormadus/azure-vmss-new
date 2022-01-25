@@ -21,3 +21,12 @@ variable "subnet1" {
 variable "subnet_ip_address" {
 	default = ["30.0.1.0/24"]
 }
+
+variable "pip" {
+	default = "user30-pip"
+}
+
+variable "pipdnsname" {
+	default = "user30vmssdemo"
+}
+
