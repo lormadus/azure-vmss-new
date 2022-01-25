@@ -42,3 +42,6 @@ variable "lb_pip" {
 	default = "user30-lbpip"
 }
 
+variable "lb_bep" {
+	default = "user30-bep"
+}
