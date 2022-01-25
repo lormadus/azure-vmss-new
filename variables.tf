@@ -30,3 +30,6 @@ variable "pipdnsname" {
 	default = "user30vmssdemo"
 }
 
+variable "nsg" {
+	default = "user30-nsg"
+}
