@@ -1,0 +1,4 @@
+테라폼 작업 디렉토리에서 ssh-keygen 통해서 RSA Key 쌍을 생성
+```
+ssh-keygen
+```
