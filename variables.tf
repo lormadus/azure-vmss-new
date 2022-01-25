@@ -33,3 +33,12 @@ variable "pipdnsname" {
 variable "nsg" {
 	default = "user30-nsg"
 }
+
+variable "lb" {
+	default = "user30-lb"
+}
+
+variable "lb_pip" {
+	default = "user30-lbpip"
+}
+
