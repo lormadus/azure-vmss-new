@@ -45,3 +45,7 @@ variable "lb_pip" {
 variable "lb_bep" {
 	default = "user30-bep"
 }
+
+variable "vmss" {
+	default = "user30-vmss"
+}
