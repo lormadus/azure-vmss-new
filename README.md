@@ -51,7 +51,9 @@ export ARM_TENANT_ID="00000000-0000-0000-0000-000000000000"
 
 <테라폼 설치>    
 ```
-wget https://releases.hashicorp.com/terraform/1.1.4/terraform_1.1.4_linux_amd64.zip
+wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install terraform
 ```
 <img src="https://github.com/lormadus/azure-vmss/blob/master/img/terraform_download.png" width=1000>
 <br><br>
